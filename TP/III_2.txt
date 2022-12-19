@@ -1,0 +1,17 @@
+a) ¬Clear(B1)∧¬Clear(B2)∧∃x(On(B3,x)∧x!=Floor)
+   
+   - b1 precisa ter 1 em cima para -Clear(B1) ser verdade
+   - b2 precisa ter 1 em cima para -Clear(B2) ser verdade
+   - b3 está em cima de algo que não seja o chão
+
+   Solução:         |B3|
+                    |B1|
+              ______|B2|______
+
+b) Clear(B1) => Clear(B2)
+   -Clear(B1) v Clear(B2)
+
+   - Se B1 estiver livre, B2 tbm está
+
+   Solução:         |B2|
+              ______|B1|______
